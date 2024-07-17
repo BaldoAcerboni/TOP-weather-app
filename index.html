@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <header>
+      <h1>WEATHER APP</h1>
+      <div id="measure">
+        <label for="UOM">Unit of Measurement</label>
+        <select name="UOM" id="UOM">
+          <option value="m">metric</option>
+          <option value="wtf">WTF is a km</option>
+        </select>
+      </div>
+    </header>
+    <main>
+      <div id="search-div">
+        <h2>Change city</h2>
+        <input type="text" id="search" />
+        <button id="search-btn">SEARCH</button>
+      </div>
+      <div id="day-container"></div>
+      <div id="forecast-container">
+        <div class="fc" id="cont0"></div>
+        <div class="fc" id="cont1"></div>
+        <div class="fc" id="cont2"></div>
+      </div>
+    </main>
+  </body>
+</html>
